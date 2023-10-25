@@ -1,12 +1,12 @@
 import Profile from '../public/portrait.jpeg';
-import Christyan from '../public/christyan.jpeg'
+import tigrao from '../public/tigrao.png'
 export const cardData = [
   {
-    id: 2,
-    name: 'Christyan',
-    age: 21,
-    src: Christyan,
-    bio: 'Jack of all, Master of some',
+    id: 0,
+    name: 'Tigrão',
+    age: 95,
+    src: tigrao,
+    bio: 'É um caminho perigoso que eu pulo… mas eu pulo sozinho.',
     genre: ['Metalcore', 'Pop', 'Rap'],
     tracks: [
       {
