@@ -1,6 +1,8 @@
 import Profile from '../public/portrait.jpeg';
 import Pedrao from '../public/pedrao.jpeg';
 import Smurfcat from '../public/smurfcat.jpg';
+
+
 export const cardData = [
   {
     id: 0,
@@ -58,7 +60,7 @@ export const cardData = [
     age: 18,
     src: Smurfcat,
     bio: 'Jack of all, Master of some',
-    genre: ['Metalcore', 'Pop', 'Rap'],
+    genre: ['Indie rock', 'Pop', 'Rap'],
     tracks: [
       {
         name: 'Xo tour Lif3',
