@@ -1,5 +1,6 @@
 import Profile from '../public/portrait.jpeg';
 import Pedrao from '../public/pedrao.jpeg'
+import motomoto from '../public/moto.jpg'
 export const cardData = [
   {
     id: 0,
@@ -47,6 +48,26 @@ export const cardData = [
       {
         name: 'FEEL NOTHING',
         artist: 'The Plot in You',
+        img: 'https://i.scdn.co/image/ab67616d0000b273197f778e9f68a8ab1d7da3f8',
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: 'MotoMoto',
+    age: 27,
+    src: motomoto,
+    bio: 'From Madagascar',
+    genre: ['MPB', 'Bossa-Nova', 'Pagode'],
+    tracks: [
+      {
+        name: "Garota de Ipanema",
+        artist: 'Tom Jobim',
+        img: 'https://i.scdn.co/image/ab67616d0000b27354113df5ab7a69df8a44c37e',
+      },
+      {
+        name: 'Cheia de Manias',
+        artist: 'Raça Negra',
         img: 'https://i.scdn.co/image/ab67616d0000b273197f778e9f68a8ab1d7da3f8',
       },
     ],
