@@ -53,7 +53,7 @@ export const cardData = [
     ],
   },
   {
-    id: 2,
+    id: 10,
     name: 'Yuri Duarte',
     age: 21,
     src: TheScore,
