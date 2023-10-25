@@ -1,7 +1,11 @@
 import Profile from '../public/portrait.jpeg';
 import Pedrao from '../public/pedrao.jpeg'
+<<<<<<< HEAD
 import Christyan from '../public/christyan.jpeg'
 import flork from '../public/images.png'
+=======
+import Pernalonga from '../public/christyan.jpeg'
+>>>>>>> 08b7b2b27e98a1e02087ca6e5b84dce5232b06b8
 export const cardData = [
   
   {
@@ -46,9 +50,15 @@ export const cardData = [
   },
   {
     id: 2,
+<<<<<<< HEAD
     name: 'dudu',
     age: 2,
     src: Pedrao,
+=======
+    name: 'perna',
+    age: 22,
+    src: Pernalonga,
+>>>>>>> 08b7b2b27e98a1e02087ca6e5b84dce5232b06b8
     bio: 'Jack of all, Master of some',
     genre: ['Metalcore', 'Pop', 'Rap'],
     tracks: [
@@ -63,6 +73,7 @@ export const cardData = [
         img: 'https://i.scdn.co/image/ab67616d0000b273197f778e9f68a8ab1d7da3f8',
       },
     ],
+<<<<<<< HEAD
   },
   {
     id: 3,
@@ -83,6 +94,8 @@ export const cardData = [
         img: 'https://i.scdn.co/image/ab67616d0000b273197f778e9f68a8ab1d7da3f8',
       },
     ],
+=======
+>>>>>>> 08b7b2b27e98a1e02087ca6e5b84dce5232b06b8
   }
 
 ]
