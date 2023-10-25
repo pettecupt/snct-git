@@ -1,6 +1,7 @@
 import Profile from '../public/portrait.jpeg';
 import Pedrao from '../public/pedrao.jpeg'
 import Pernalonga from '../public/christyan.jpeg'
+import tigrao from '../public/tigrao.png'
 export const cardData = [
   {
     id: 0,
@@ -20,20 +21,30 @@ export const cardData = [
         artist: 'Of Mice & Men',
         img: 'https://i.scdn.co/image/ab67616d0000b2738eaa8ea5ed8b61cfeeda605f',
       },
+    ]
+  },
+  {
+    id: 1,
+    name: 'Tigrão',
+    age: 95,
+    src: tigrao,
+    bio: 'É um caminho perigoso que eu pulo… mas eu pulo sozinho.',
+    genre: ['Funk', 'Rock'],
+    tracks: [
       {
-        name: "Tears Don't Fall",
-        artist: 'Bullet For my Valentine',
+        name: "Cerol na Mão",
+        artist: 'Bonde do Tigrão',
         img: 'https://i.scdn.co/image/ab67616d0000b27354113df5ab7a69df8a44c37e',
       },
       {
-        name: 'FEEL NOTHING',
-        artist: 'The Plot in You',
+        name: 'Eye of the Tiger',
+        artist: 'Survivor',
         img: 'https://i.scdn.co/image/ab67616d0000b273197f778e9f68a8ab1d7da3f8',
       },
     ],
   },
   {
-    id: 1,
+    id: 2,
     name: 'dudu',
     age: 2,
     src: Pedrao,
@@ -53,7 +64,7 @@ export const cardData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     name: 'perna',
     age: 22,
     src: Pernalonga,
