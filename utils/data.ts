@@ -57,7 +57,7 @@ export const cardData = [
     name: 'Joel',
     age: 52,
     src: Joel,
-    bio: 'Jack of all, Master of some',
+    bio: 'Faça os tiros valerem a pena',
     genre: ['Metalcore', 'Pop', 'Rap'],
     tracks: [
       {
